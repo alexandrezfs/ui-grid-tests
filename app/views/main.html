@@ -1,0 +1,30 @@
+<div class="jumbotron">
+  <div ui-grid="gridOptions">
+
+  </div>
+
+  <div class="thumbnail" data-drop="true" data-jqyoui-options ng-model="list2" jqyoui-droppable style='height:50px;'>
+    <div class="btn btn-success" data-drag="false" data-jqyoui-options ng-model="list2" jqyoui-draggable ng-hide="!list2.title">{{list2.title}}</div>
+  </div>
+
+  <div class="thumbnail" data-drop="true" data-jqyoui-options ng-model="list2" jqyoui-droppable style='height:50px;'>
+    <div class="btn btn-success" data-drag="false" data-jqyoui-options ng-model="list2" jqyoui-draggable ng-hide="!list2.title">{{list2.title}}</div>
+  </div>
+
+  <div external-scopes="gridHandlers" data-drag="true" jqyoui-draggable="{onStart:'startCallback(null)'}" style="z-index: 999999999;" data-jqyoui-options="{revert: 'invalid', revertDuration: 0, zIndex: 9999999}">aaa</div>
+</div>
+
+<div class="row marketing">
+  <h4>HTML5 Boilerplate</h4>
+  <p>
+    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  </p>
+
+  <h4>Angular</h4>
+  <p>
+    AngularJS is a toolset for building the framework most suited to your application development.
+  </p>
+
+  <h4>Karma</h4>
+  <p>Spectacular Test Runner for JavaScript.</p>
+</div>
